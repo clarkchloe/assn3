@@ -1,0 +1,162 @@
+body {
+background-image: url("../images/honey2.jpg");
+background-color: #F0E5D0;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #70090A;
+  font-weight:700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #70090A;
+  font-weight:700;
+  font-size: 25px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #70090A;
+  font-weight:700;
+  font-size: 20px;
+}
+
+.offpage {
+  position: absolute;
+  text-align: left;
+  left: -1000px;
+  height: 1px;
+  width: 1px;
+  text-align: left;
+  overflow: hidden;
+}
+
+a.offpage:active, a.offpage:focus, a.offpage:hover {
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+a:hover {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+a:active {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+a:visited {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.mainhead {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  margin: 25px;
+}
+
+#mainlogo {
+  height: 75px;
+  width: 150px;
+}
+
+#mainnav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display:inline;
+}
+
+nav a:link {
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  background: #70090A;
+  width: 150px;
+  text-align: center;
+  padding: 15px;
+  margin:0 auto;
+  margin-top: 10px;
+}
+
+nav a:hover {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #70090A;
+  background: #cccccc;
+}
+
+nav a:visited {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  background: #70090A;
+}
+
+nav a:active {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  color: #ffffff;
+  background: #871136;
+}
+
+a.current {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  color: #70090A;
+  background: #cccccc;
+}
+
+main {
+  clear:both;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#portfolio {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+}
+
+#portfolio img {
+  width: 90%;
+  margin-bottom: 25px;
+}
+
+.current {
+  text-transform: uppercase;
+}
